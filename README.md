@@ -7,7 +7,7 @@ This proposal is at stage 1 of [the TC39 Process](https://tc39.github.io/process
 
 ## Champions
 * Mark Miller
-* Mathias Bynens (@mathiasbynens)
+* Mathias Bynens
 
 ## Motivation
 ECMAScript claims JSON as a subset in [`JSON.parse`](https://tc39.github.io/ecma262/#sec-json.parse), but (as has been well-documented) that is not true because JSON strings can contain unescaped U+2028 LINE SEPARATOR and U+2029 PARAGRAPH SEPARATOR characters while ECMAScript strings cannot.
